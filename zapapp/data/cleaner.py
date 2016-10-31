@@ -17,7 +17,7 @@ class DataCleaner():
         self.outPath = outPath
 
         self.lemmatizer = WordNetLemmatizer()
-        self.sentenceTokenizer = nltk.data.load('/home/jeffk/nltk_data/tokenizers/punkt/english.pickle')
+        self.sentenceTokenizer = nltk.data.load('nltk_data/tokenizers/punkt/english.pickle')
 
         self.stopwords = set(['send', 'do', 'include']).union(stopwords.words('english'))
 
@@ -73,7 +73,6 @@ class DataCleaner():
             sentences = []
 
             self.processStringField(sentences, entry['serviceSummary'], splitSentences=True)
-            #self.processStringListField(sentences, entry, 'zapRecipes', splitSentences=False)
             self.processStringListField(sentences, entry, 'triggersAndActionsStrings', splitSentences=True)
             self.processStringListField(sentences, entry, 'reviewStrings', splitSentences=True)
             self.processStringListField(sentences, entry, 'appCopySectionStrings', splitSentences=True)
