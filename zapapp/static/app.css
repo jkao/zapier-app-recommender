@@ -1,0 +1,90 @@
+.content {
+  font-family: Arial;
+  padding: 25px 20px;
+}
+
+h1.hero {
+  font-family: "Oswald";
+  background-color: #FF4A00;
+  color: white;
+  font-size: 60px;
+  font-weight: bold;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.finder h3 {
+  font-size: 36px;
+  font-style: normal;
+  margin: 0;
+  padding: 32px 0 16px;
+}
+.finder input[type="text"] {
+  border: 0;
+  font-size: 36px;
+  width: 100%;
+  color: #FF4A00;
+  outline: none;
+  padding: 0;
+}
+
+.recommendations {
+  margin: 36px 0;
+}
+.recommendations .loading, .empty {
+  font-size: 16px;
+  display: none;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  background-color: #FF4A00;
+  color: white;
+  font-family: "Oswald";
+  font-size: 16px;
+  padding: 5px 20px;
+}
+.attribution a {
+  color: white;
+  text-decoration: none;
+}
+
+.entry.template {
+  display: none;
+}
+.entries .entry {
+  margin: 0 0 16px;
+  border: solid 1px #ddd;
+  padding: 16px 0;
+  cursor: pointer;
+}
+.entries .entry a {
+  color: black;
+  text-decoration: none;
+}
+.entries .entry .header {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px;
+}
+.entries .entry .logo {
+  width: 64px;
+  height: 64px;
+  background-size: cover;
+  margin: 0 auto;
+}
+.entries .entry .logo.blank {
+  background-image: url(http://placehold.it/64x64);
+}
+.entries .entry .summary {
+  margin: 5px 0 0;
+}
+.entries .entry .left {
+  text-align: center;
+}
+.entries .entry .right {
+}

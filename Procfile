@@ -1,1 +1,1 @@
-web: python ./app.py $PORT
+web: python ./zapapp/app.py $PORT $ES_URL
