@@ -31,7 +31,7 @@
           <input
              type="text"
              name="query"
-             placeholder="accept payments online"
+             placeholder="accept recurring payments"
              autofocus="autofocus"
              autocomplete="off" />
         </form>
